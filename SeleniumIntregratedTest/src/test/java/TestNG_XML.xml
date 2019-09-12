@@ -5,7 +5,7 @@
 <suite name="AllTestsSuite">
     <test name="My First Selenium TestNG Test">
         <classes>
-            <class name="TestNG_Test1"/>
+            <class name="testCases.TestNG_Test1"/>
         </classes>
     </test>
 </suite>
