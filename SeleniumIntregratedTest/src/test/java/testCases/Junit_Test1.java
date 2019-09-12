@@ -1,6 +1,7 @@
 package testCases;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -34,6 +35,13 @@ public class Junit_Test1{
 		
 	}
 
+	@Test
+	public void test_2() {
+		Assert.assertFalse(true);
+		
+	}
+	
+	
 	@After
 	public void tearDown() throws Exception {
 		

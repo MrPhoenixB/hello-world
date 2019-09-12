@@ -1,6 +1,7 @@
 package SeleniumIntregratedTest.SeleniumIntregratedTest;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -34,6 +35,12 @@ public class App
 		driver.get("https://www.facebook.com");
 		
 		
+		
+	}
+	
+	@Test
+	public void test_2() {
+		Assert.assertFalse(true);
 		
 	}
 
