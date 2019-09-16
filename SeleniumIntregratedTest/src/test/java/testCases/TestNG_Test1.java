@@ -44,6 +44,11 @@ public class TestNG_Test1 {
         //Assertion
         Assert.assertEquals(title, "Software Test Academy", "Title assertion is failed!");
     }
+    
+    @Test
+    public void secondTest() {
+    	Assert.assertFalse(true);
+    }
  
     //-----------------------------------Test TearDown-----------------------------------
     @AfterMethod

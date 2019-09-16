@@ -3,9 +3,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
  
 <suite name="AllTestsSuite">
-    <test name="My First Selenium TestNG Test">
+    <test name="My First Selenium TestNG Test1">
         <classes>
-            <class name="testCases.TestNG_Test1"/>
+            <class name="testCases.TestNG_Test1">
+            	<methods>
+			        <include name="firstTest" />
+			        <include name="secondTest" />
+			    </methods>
+			</class>
+        </classes>
+    </test>
+    <test name="My First Selenium TestNG Test2">
+        <classes>
+            <class name="testCases.TestNG_Test1">
+            	<methods>
+			        <include name="firstTest" />
+			    </methods>
+			</class>
         </classes>
     </test>
 </suite>
