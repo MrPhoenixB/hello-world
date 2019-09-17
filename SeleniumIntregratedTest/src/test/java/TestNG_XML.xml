@@ -18,6 +18,7 @@
             <class name="testCases.TestNG_Test1">
             	<methods>
 			        <include name="firstTest" />
+			        <include name="thirdTest" />
 			    </methods>
 			</class>
         </classes>

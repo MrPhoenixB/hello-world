@@ -47,6 +47,11 @@ public class TestNG_Test1 {
     
     @Test
     public void secondTest() {
+    	Assert.assertFalse(false);
+    }
+    
+    @Test
+    public void thirdTest() {
     	Assert.assertFalse(true);
     }
  
